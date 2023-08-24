@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.116" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-08-24T22:01:21" tests="0" file="cypress\e2e\holidayAPI.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Given a user makes a default holiday request" timestamp="2023-08-24T22:01:21" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="When no other parameters are included in the request body" timestamp="2023-08-24T22:01:21" tests="1" time="0.970" failures="1">
+    <testcase name="Given a user makes a default holiday request When no other parameters are included in the request body Then the default holidays list shall be returned" time="0.000" classname="Then the default holidays list shall be returned">
+      <failure message="`cy.request()` failed on:
+
+https://calendarific.com/holidays
+
+The response we received from your web server was:
+
+  &gt; 404: Not Found
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://calendarific.com/holidays
+Headers: {
+  &quot;Connection&quot;: &quot;keep-alive&quot;,
+  &quot;user-agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.17.4 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36&quot;,
+  &quot;accept&quot;: &quot;*/*&quot;,
+  &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;,
+  &quot;content-type&quot;: &quot;application/json&quot;,
+  &quot;content-length&quot;: 2
+}
+Body: {}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 404 - Not Found
+Headers: {
+  &quot;date&quot;: &quot;Thu, 24 Aug 2023 22:01:22 GMT&quot;,
+  &quot;content-type&quot;: &quot;text/html; charset=UTF-8&quot;,
+  &quot;transfer-encoding&quot;: &quot;chunked&quot;,
+  &quot;connection&quot;: &quot;keep-alive&quot;,
+  &quot;cache-control&quot;: &quot;max-age=0, must-revalidate, no-cache, no-store, private&quot;,
+  &quot;pragma&quot;: &quot;no-cache&quot;,
+  &quot;expires&quot;: &quot;Fri, 01 Jan 1990 00:00:00 GMT&quot;,
+  &quot;cf-cache-status&quot;: &quot;DYNAMIC&quot;,
+  &quot;report-to&quot;: &quot;{\&quot;endpoints\&quot;:[{\&quot;url\&quot;:\&quot;https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2BCO5Zk93E4nto8EpHlRmhlzt1dI1BO%2BYEBWd11YgdOMLjTP%2BKWbRY2JRIlIdxRBV5t4LX8eJN19%2B5jv%2BM5rHXdKrvOIxzX%2BtYUZ0DT%2Fps07j%2F99Zc%2FMKpBsVErUbWv818oJmMQFZ4UgFSzPBRts%3D\&quot;}],\&quot;group\&quot;:\&quot;cf-nel\&quot;,\&quot;max_age\&quot;:604800}&quot;,
+  &quot;nel&quot;: &quot;{\&quot;success_fraction\&quot;:0,\&quot;report_to\&quot;:\&quot;cf-nel\&quot;,\&quot;max_age\&quot;:604800}&quot;,
+  &quot;server&quot;: &quot;cloudflare&quot;,
+  &quot;cf-ray&quot;: &quot;7fbedf9b3df24527-ATL&quot;,
+  &quot;content-encoding&quot;: &quot;gzip&quot;
+}
+Body: &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, viewport-fit=cover&quot; /&gt;
+&lt;meta name=&quot;csrf-token&quot; content&gt;
+&lt;title&gt;Page Not Found - Calendarific&lt;/title&gt;
+&lt;meta name=&quot;description&quot; content=&quot;The page that you are looking for does not exist.&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;holiday info, holiday api, public holidays database,  holiday information,  worldwide holiday holiday tracking, public holiday news&quot;&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;https://calendarific.com/holidays&quot;&gt;
+&lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot;&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;Page Not Found&quot;&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;The page that you are looking for does not exist.&quot;&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Page Not Found&quot;&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot;&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;https://calendarific.com/holidays&quot;&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;https://calendarific.com/uploads/logo/logo.png&quot;&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;&gt;
+&lt;meta name=&quot;twitter:image&quot; content=&quot;https://calendarific.com/uploads/logo/logo.png&quot;&gt;
+&lt;meta name=&quot;twitter:title&quot; content=&quot;Page Not Found&quot;&gt;
+&lt;meta name=&quot;twitter:description&quot; content=&quot;The page that you are looking for does not exist.&quot;&gt;
+&lt;meta name=&quot;twitter:url&quot; content=&quot;https://calendarific.com/holidays&quot;&gt;
+&lt;meta name=&quot;twitter:site&quot; content=&quot;@calendarific&quot;&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;{&quot;@context&quot;:&quot;https://schema.org&quot;,&quot;@type&quot;:&quot;Organization&quot;,&quot;name&quot;:&quot;Calendarific&quot;}&lt;/script&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;[]&lt;/script&gt; &lt;link rel=&quot;icon&quot; href=&quot;/uploads/favicons/favicon.png&quot; sizes=&quot;any&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;/uploads/favicons/favicon.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;120x120&quot; href=&quot;/uploads/favicons/favicon.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;152x152&quot; href=&quot;/uploads/favicons/favicon.png&quot; /&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;167x167&quot; href=&quot;/upload...
+
+
+https://on.cypress.io/request" type="CypressError"><![CDATA[CypressError: `cy.request()` failed on:
+
+https://calendarific.com/holidays
+
+The response we received from your web server was:
+
+  > 404: Not Found
+
+This was considered a failure because the status code was not `2xx` or `3xx`.
+
+If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+
+-----------------------------------------------------------
+
+The request we sent was:
+
+Method: GET
+URL: https://calendarific.com/holidays
+Headers: {
+  "Connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/12.17.4 Chrome/106.0.5249.51 Electron/21.0.0 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate",
+  "content-type": "application/json",
+  "content-length": 2
+}
+Body: {}
+
+-----------------------------------------------------------
+
+The response we got was:
+
+Status: 404 - Not Found
+Headers: {
+  "date": "Thu, 24 Aug 2023 22:01:22 GMT",
+  "content-type": "text/html; charset=UTF-8",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+  "pragma": "no-cache",
+  "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+  "cf-cache-status": "DYNAMIC",
+  "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2BCO5Zk93E4nto8EpHlRmhlzt1dI1BO%2BYEBWd11YgdOMLjTP%2BKWbRY2JRIlIdxRBV5t4LX8eJN19%2B5jv%2BM5rHXdKrvOIxzX%2BtYUZ0DT%2Fps07j%2F99Zc%2FMKpBsVErUbWv818oJmMQFZ4UgFSzPBRts%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+  "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+  "server": "cloudflare",
+  "cf-ray": "7fbedf9b3df24527-ATL",
+  "content-encoding": "gzip"
+}
+Body: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="csrf-token" content>
+<title>Page Not Found - Calendarific</title>
+<meta name="description" content="The page that you are looking for does not exist.">
+<meta name="keywords" content="holiday info, holiday api, public holidays database,  holiday information,  worldwide holiday holiday tracking, public holiday news">
+<link rel="canonical" href="https://calendarific.com/holidays">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Page Not Found">
+<meta property="og:description" content="The page that you are looking for does not exist.">
+<meta property="og:site_name" content="Page Not Found">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://calendarific.com/holidays">
+<meta property="og:image" content="https://calendarific.com/uploads/logo/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://calendarific.com/uploads/logo/logo.png">
+<meta name="twitter:title" content="Page Not Found">
+<meta name="twitter:description" content="The page that you are looking for does not exist.">
+<meta name="twitter:url" content="https://calendarific.com/holidays">
+<meta name="twitter:site" content="@calendarific">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Calendarific"}</script>
+<script type="application/ld+json">[]</script> <link rel="icon" href="/uploads/favicons/favicon.png" sizes="any" />
+<link rel="shortcut icon" href="/uploads/favicons/favicon.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/uploads/favicons/favicon.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/uploads/favicons/favicon.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="/upload...
+
+
+https://on.cypress.io/request
+    at <unknown> (https://calendarific.com/__cypress/runner/cypress_runner.js:132360:72)
+    at tryCatcher (https://calendarific.com/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://calendarific.com/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://calendarific.com/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromise0 (https://calendarific.com/__cypress/runner/cypress_runner.js:1621:10)
+    at Promise._settlePromises (https://calendarific.com/__cypress/runner/cypress_runner.js:1701:18)
+    at _drainQueueStep (https://calendarific.com/__cypress/runner/cypress_runner.js:2407:12)
+    at _drainQueue (https://calendarific.com/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://calendarific.com/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://calendarific.com/__cypress/runner/cypress_runner.js:2286:14)
+From Your Spec Code:
+    at Context.eval (webpack:///./cypress/e2e/holidayAPI.cy.js:4:9)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

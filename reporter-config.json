@@ -1,0 +1,11 @@
+{
+    "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+    "mochaJunitReporterReporterOptions": {
+        "mochaFile": "cypress/reports/junit/results-[hash].xml"
+    },
+    "cypressMochawesomeReporterReporterOptions": {
+        "reportDir": "cypress/reports/mochawesome-report",
+        "charts": true,
+        "reportPageTitle": "Cypress Multi Reporter Summary"
+    }
+}
