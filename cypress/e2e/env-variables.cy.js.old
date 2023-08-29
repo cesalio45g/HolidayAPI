@@ -1,5 +1,5 @@
 // holiday api test file
-describe("Give I have an Environment Variables", () => {
+describe.skip("Give I have an Environment Variables", () => {
   it("Then the dotenv plug-in shall display .env variables", () => {
     cy.log("Authentication Token: " + Cypress.env("TOKEN"));
   });

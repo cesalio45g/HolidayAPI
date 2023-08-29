@@ -10,6 +10,7 @@ module.exports = defineConfig({
   reporterOptions: {
     configFile: "reporter-config.json",
   },
+  runComplete: true,
   env: {
     ...process.env,
     HOLIDAY: "Halloween",
