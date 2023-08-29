@@ -127,6 +127,6 @@ dist
 .pnp.*
 
 # cypress
-**/reports
-**/screenshots
-**/videos
+cypress/reports
+cypress/screenshots
+cypress/videos
