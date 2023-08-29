@@ -127,6 +127,7 @@ dist
 .pnp.*
 
 # cypress
+# giiignore rules: https://www.w3schools.com/git/git_ignore.asp?remote=github
 cypress/reports
 cypress/screenshots
 cypress/videos
