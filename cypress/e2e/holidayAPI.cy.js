@@ -3,7 +3,7 @@ describe.only("Given a user makes a default holiday request", () => {
     it("Then the default holidays list shall be returned", () => {
       cy.request({
         method: "GET",
-        url: "/holidays",
+        url: "/api/v2/holidays",
         body: {
           api_key: Cypress.env("TOKEN"),
           country: "us",
