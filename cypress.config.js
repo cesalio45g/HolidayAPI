@@ -16,7 +16,7 @@ module.exports = defineConfig({
     HOLIDAY: "Halloween",
   },
   e2e: {
-    baseUrl: "https://calendarific.com/api/v2",
+    baseUrl: "https://calendarific.com",
     viewportHeight: 720,
     viewportWidth: 1280,
     specPattern: "./cypress/e2e/**/*.cy.js",
