@@ -7,5 +7,16 @@
         "reportDir": "cypress/reports/mochawesome-report",
         "charts": true,
         "reportPageTitle": "Cypress Multi Reporter Summary"
+    },
+    "cypressQaseReporterReporterOptions": {
+      "apiToken": "3a503d15eb7ed5e0f871e545afec95ad6420c38e930280e0bc44bdf8827122de",
+      "projectCode": "HAPI",
+      "logging": true,
+      "basePath": "https://api.qase.io/v1",
+      "screenshotFolder": "screenshots",
+      "sendScreenshot": true,
+      "runComplete": true,
+      "environmentId": 1,
+      "rootSuiteTitle": "Holiday API"
     }
 }
